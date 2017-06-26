@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div>
+            {% if form %}
+                <form action="." method="POST">
+                    {% csrf_token %}
+                    {{ form }}
+                    <button type="submit">Save Comment</button>
+                </form>
+            {% endif %}
+            {% if obj %}
+                <div>
+                    <p>Cleaned Comment</p>
+                    <p>{{ obj.comment }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </body>
+</html>

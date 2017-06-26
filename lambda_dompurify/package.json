@@ -1,0 +1,16 @@
+{
+  "name": "dompurify-lambda",
+  "version": "1.0.0",
+  "description": "Run DOMPurify as a service on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tobias Abdon",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^0.9.0"
+  },
+  "devDependencies": {}
+}
